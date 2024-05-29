@@ -20,6 +20,9 @@ module.exports = {
           ...colors.gray,
           '900': '#999'
         }
+      },
+      spacing: {
+        '50': '20rem'
       }
     },
   },

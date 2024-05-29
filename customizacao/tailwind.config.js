@@ -6,6 +6,10 @@ module.exports = {
     //   black: '#010101',
     //   red: '#A83246'
     // },
+    // screens: {
+    //   'tablet': '640px',
+    //   'cel': {'max': '400px'}
+    // },
     extend: {},
   },
   plugins: [],

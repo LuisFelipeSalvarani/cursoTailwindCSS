@@ -623,6 +623,18 @@ video {
   place-content: space-around;
 }
 
+.place-items-start {
+  place-items: start;
+}
+
+.place-items-end {
+  place-items: end;
+}
+
+.place-items-center {
+  place-items: center;
+}
+
 .content-center {
   align-content: center;
 }
@@ -833,6 +845,11 @@ video {
 .bg-yellow-600 {
   --tw-bg-opacity: 1;
   background-color: rgb(202 138 4 / var(--tw-bg-opacity));
+}
+
+.bg-gray-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(75 85 99 / var(--tw-bg-opacity));
 }
 
 .p-2 {

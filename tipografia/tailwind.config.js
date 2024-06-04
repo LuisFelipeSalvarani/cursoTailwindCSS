@@ -5,6 +5,9 @@ module.exports = {
     extend: {
       fontFamily: {
         'arial': 'Arial'
+      },
+      fontSize: {
+        '12xl': '8rem'
       }
     },
   },

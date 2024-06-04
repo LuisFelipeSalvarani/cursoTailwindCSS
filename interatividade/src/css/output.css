@@ -553,3 +553,13 @@ video {
   --tw-contain-paint:  ;
   --tw-contain-style:  ;
 }
+
+.m-4 {
+  margin: 1rem;
+}
+
+.appearance-none {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}

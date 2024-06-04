@@ -572,6 +572,10 @@ video {
   margin-bottom: 0.5rem;
 }
 
+.h-48 {
+  height: 12rem;
+}
+
 .w-64 {
   width: 16rem;
 }
@@ -594,6 +598,10 @@ video {
 
 .list-none {
   list-style-type: none;
+}
+
+.overflow-auto {
+  overflow: auto;
 }
 
 .rounded {
@@ -664,12 +672,28 @@ video {
   background-color: rgb(234 179 8 / var(--tw-bg-opacity));
 }
 
+.bg-fixed {
+  background-attachment: fixed;
+}
+
+.bg-local {
+  background-attachment: local;
+}
+
 .p-4 {
   padding: 1rem;
 }
 
 .p-6 {
   padding: 1.5rem;
+}
+
+.p-10 {
+  padding: 2.5rem;
+}
+
+.p-20 {
+  padding: 5rem;
 }
 
 .text-left {

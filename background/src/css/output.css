@@ -751,6 +751,26 @@ video {
   background-attachment: local;
 }
 
+.bg-bottom {
+  background-position: bottom;
+}
+
+.bg-right-bottom {
+  background-position: right bottom;
+}
+
+.bg-center {
+  background-position: center;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
+.bg-repeat-y {
+  background-repeat: repeat-y;
+}
+
 .p-4 {
   padding: 1rem;
 }

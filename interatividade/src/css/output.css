@@ -558,8 +558,48 @@ video {
   margin: 1rem;
 }
 
+.h-20 {
+  height: 5rem;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.cursor-wait {
+  cursor: wait;
+}
+
+.cursor-not-allowed {
+  cursor: not-allowed;
+}
+
+.cursor-text {
+  cursor: text;
+}
+
 .appearance-none {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
+}
+
+.bg-pink-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(244 114 182 / var(--tw-bg-opacity));
+}
+
+.bg-pink-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(219 39 119 / var(--tw-bg-opacity));
+}
+
+.bg-pink-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(131 24 67 / var(--tw-bg-opacity));
+}
+
+.bg-pink-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(251 207 232 / var(--tw-bg-opacity));
 }

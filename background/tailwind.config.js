@@ -3,12 +3,10 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
-      fontFamily: {
-        'arial': 'Arial'
-      },
-      fontSize: {
-        '12xl': '8rem'
-      }
+      backgroundImage: theme => ({
+        'cheese': 'url(../img/liquid-cheese.png)',
+        'ecodeck': 'url(../img/logo.png)',
+      })
     },
   },
   plugins: [],
